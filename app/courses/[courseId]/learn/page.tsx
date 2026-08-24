@@ -1,3 +1,14 @@
+export default function CourseLearnPage({
+  params,
+}: {
+  params: Promise<{ courseId: string }>;
+}) {
+  const resolvedParams = React.use(params);
+  const courseId = resolvedParams.courseId;
+  // ... โค้ดส่วนที่เหลือ
+
+
+
 import { markLessonComplete, claimCertificate } from '@/actions/learning';
 
 // ใน CourseLearnPage Component:
