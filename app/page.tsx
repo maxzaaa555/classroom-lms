@@ -35,7 +35,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* ปุ่มลิงก์ตรงไปยังหน้าห้องเรียนเต็มรูปแบบ */}
+        {/* ปุ่มลิงก์ตรงไปยังหน้าห้องเรียน */}
         <Link
           href="/courses/demo-course-01/learn"
           className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-sm font-semibold shadow-lg shadow-emerald-950/50 transition-all flex items-center gap-2 shrink-0"
